@@ -12,8 +12,8 @@ async function createContainer(imageName: string, cmdExecutable: string[]): Prom
         AttachStdout: true,
         Tty: false,
         HostConfig: {
-            Memory: 1024 * 1024 *512; //Handling MLE
-        }
+            Memory: 1024 * 1024 *512 //Handling MLE
+        },
         OpenStdin: true
     });
     
