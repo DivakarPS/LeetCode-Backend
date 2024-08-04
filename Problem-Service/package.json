@@ -1,0 +1,25 @@
+{
+  "name": "leetcodebackend",
+  "version": "1.0.0",
+  "description": "This is a admin service to manage problems of Leetcode Like platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "type": "commonjs",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status-codes": "^2.3.0",
+    "marked": "^13.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4",
+    "sanitize-html": "^2.13.0",
+    "turndown": "^7.2.0",
+    "winston": "^3.13.1"
+  }
+}
