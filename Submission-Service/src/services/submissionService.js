@@ -6,6 +6,7 @@ class SubmissionService{
         this.submissionRepository = submissionRepository;
     }
     async addSubmission(submissionPayload){
+        //submission payload will have - userId, problemId, code, lannguage
 
         const problemId = submissionPayload.problemId;
         const userId = submissionPayload.userId;
